@@ -1,0 +1,12 @@
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\bin\Debug\net6.0\ServiceLayer.deps.json
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\bin\Debug\net6.0\ServiceLayer.dll
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\bin\Debug\net6.0\ServiceLayer.pdb
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ServiceLayer.AssemblyInfo.cs
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ServiceLayer.dll
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\refint\ServiceLayer.dll
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ServiceLayer.pdb
+D:\C#\HomeWork1-Account\Homework-1\ServiceLayer\obj\Debug\net6.0\ref\ServiceLayer.dll

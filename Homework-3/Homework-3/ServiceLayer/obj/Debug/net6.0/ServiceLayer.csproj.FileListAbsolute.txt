@@ -1,0 +1,12 @@
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\bin\Debug\net6.0\ServiceLayer.deps.json
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\bin\Debug\net6.0\ServiceLayer.dll
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\bin\Debug\net6.0\ServiceLayer.pdb
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ServiceLayer.AssemblyInfo.cs
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ServiceLayer.dll
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\refint\ServiceLayer.dll
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ServiceLayer.pdb
+D:\C#\Tasks(12.23.22)\Homework-3\Homework-3\ServiceLayer\obj\Debug\net6.0\ref\ServiceLayer.dll
