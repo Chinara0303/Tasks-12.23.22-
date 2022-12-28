@@ -1,39 +1,73 @@
 ﻿using DomainLayer.Models;
 using ServiceLayer.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ServiceLayer.Services
 {
     public class CustomerService : ICustomerService
     {
-        public int GetAvgCustomersAge(Customer[] customers)
+        public int GetAvgCustomersAge()
         {
-            int count = 0;
             int sum = 0;
-            foreach (Customer customer in customers)
+            foreach (Customer customer in GetCustomers())
             {
-                count++;
                 sum += customer.Age;
             }
-            int average = sum / count;
-            return average;
+            return sum / GetCustomers().Length;
         }
 
-        public int GetCustomerCount(Customer[] customers)
+        public int GetCustomerCount()
         {
+            var result = GetCustomers();
             int count = 0;
-            foreach (Customer customer in customers)
+            foreach (Customer customer in GetCustomers())
             {
-                if (customer.Age>25 && customer.Age<30)
+                if (customer.Age > 25 && customer.Age < 30)
                 {
                     count++;
                 }
             }
             return count;
+        }
+        private Customer[] GetCustomers()
+        {
+            Customer customer1 = new Customer
+            {
+                Id = 1,
+                Name = "Chinara",
+                Surname = "Ibadova",
+                Position = "Developer",
+                Age = 22
+            };
+
+            Customer customer2 = new Customer
+            {
+                Id = 2,
+                Name = "Konul",
+                Surname = "Ibrahimova",
+                Position = "Developer",
+                Age = 26
+            };
+
+            Customer customer3 = new Customer
+            {
+                Id = 3,
+                Name = "Roya",
+                Surname = "Meherremova",
+                Position = "Developer",
+                Age = 26
+            };
+
+            Customer customer4 = new Customer
+            {
+                Id = 4,
+                Name = "Gunel",
+                Surname = "Novruzova",
+                Position = "Developer",
+                Age = 23
+            };
+            Customer[] customers = new Customer[] { customer1, customer2, customer3, customer4 };
+            return customers;
         }
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\DomainLayer\\DomainLayer.csproj",
+      "projectUniqueName": "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\DomainLayer\\DomainLayer.csproj",
       "projectName": "DomainLayer",
-      "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\DomainLayer\\DomainLayer.csproj",
+      "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\DomainLayer\\DomainLayer.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\DomainLayer\\obj\\",
+      "outputPath": "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\DomainLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

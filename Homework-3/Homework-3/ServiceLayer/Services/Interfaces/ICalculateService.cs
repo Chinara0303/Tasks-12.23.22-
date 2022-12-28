@@ -8,7 +8,7 @@ namespace ServiceLayer.Services.Interfaces
 {
     public interface ICalculateService
     {
-        double GetBetweenNumbersFromArray(double[] nums);
+        double GetMultipleNumbersFromArray(double[] nums);
         double GetEvenNumbersSumPowFromArray(double[] nums);
     }
 }

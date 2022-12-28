@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\HomeWork1-Account\\Homework-1\\Homework-1\\Homework-1.csproj",
+      "projectUniqueName": "D:\\C#\\Tasks(12.23.22)\\Homework-1\\Homework-1\\Homework-1.csproj",
       "projectName": "Homework-1",
-      "projectPath": "D:\\C#\\HomeWork1-Account\\Homework-1\\Homework-1\\Homework-1.csproj",
+      "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homework-1\\Homework-1\\Homework-1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\HomeWork1-Account\\Homework-1\\Homework-1\\obj\\",
+      "outputPath": "D:\\C#\\Tasks(12.23.22)\\Homework-1\\Homework-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C#\\HomeWork1-Account\\Homework-1\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "D:\\C#\\HomeWork1-Account\\Homework-1\\ServiceLayer\\ServiceLayer.csproj"
+            "D:\\C#\\Tasks(12.23.22)\\Homework-1\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homework-1\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }

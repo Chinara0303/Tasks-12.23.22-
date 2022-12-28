@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\ServiceLayer\\ServiceLayer.csproj",
+      "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\ServiceLayer\\ServiceLayer.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\ServiceLayer\\obj\\",
+      "outputPath": "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\DomainLayer\\DomainLayer.csproj": {
-              "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homeworl-4\\Homework-4\\DomainLayer\\DomainLayer.csproj"
+            "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\DomainLayer\\DomainLayer.csproj": {
+              "projectPath": "D:\\C#\\Tasks(12.23.22)\\Homework-4\\Homework-4\\DomainLayer\\DomainLayer.csproj"
             }
           }
         }

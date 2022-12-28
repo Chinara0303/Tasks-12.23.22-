@@ -9,15 +9,13 @@ namespace ServiceLayer.Services
 {
     public class CalculateService : ICalculateService
     {
-        public double GetBetweenNumbersFromArray(double[] nums)
+        public double GetMultipleNumbersFromArray(double[] nums)
         {
             double multiple=1;
             foreach (double num in nums)
             {
                 if (num>1 && num<20)
-                {
                     multiple *= num;
-                }
             }
             return multiple;
         }
@@ -25,16 +23,12 @@ namespace ServiceLayer.Services
         public double GetEvenNumbersSumPowFromArray(double[] nums)
         {
             double sum= 0;
-            double power = 1;
             foreach (double num in nums)
             {
                 if (num%2==0)
-                {
                     sum += num;
-                }
             }
-            power = Math.Pow(sum, 2);
-            return power;
+            return Math.Pow(sum, 2);
         }
     }
 }

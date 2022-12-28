@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace DomainLayer.Models
 {
-    public class Customer
+    public class Customer:BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Position { get; set; }

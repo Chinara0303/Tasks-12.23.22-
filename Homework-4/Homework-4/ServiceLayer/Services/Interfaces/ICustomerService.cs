@@ -1,5 +1,4 @@
-﻿using DomainLayer.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +8,7 @@ namespace ServiceLayer.Services.Interfaces
 {
     public interface ICustomerService
     {
-        int GetCustomerCount(Customer[] customers);
-        int GetAvgCustomersAge(Customer[] customers);
+        int GetCustomerCount();
+        int GetAvgCustomersAge();
     }
 }
