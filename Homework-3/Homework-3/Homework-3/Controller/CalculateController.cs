@@ -10,13 +10,13 @@ namespace Homework_3.Controller
     internal class CalculateController
     {
         private readonly CalculateService _service;
-        public CalculateController() => _service= new CalculateService();
+        public CalculateController() => _service = new CalculateService();
         
         public void GetMultipleNumbersFromArray() => Console.WriteLine(_service.GetMultipleNumbersFromArray(GetArray()));
         
         public void GetEvenNumbersSumPowFromArray() => Console.WriteLine(_service.GetEvenNumbersSumPowFromArray(GetArray()));
 
-        public double[] GetArray() => new double[] { 3, 4, 6.7, 10, 2, 15, 16, 18, 20, 33 };
+        private double[] GetArray() => new double[] { 3, 4, 6.7, 10, 2, 15, 16, 18, 20, 33 };
 
 
 

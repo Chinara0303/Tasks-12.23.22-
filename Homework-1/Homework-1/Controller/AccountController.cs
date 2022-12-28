@@ -12,9 +12,10 @@ namespace Homework_1.Controller
 
             Console.WriteLine("Enter password:");
             string password = Console.ReadLine();
+
             int roleId = 1;
 
-            var result = account.Login(email, password, roleId);
+            string result = account.Login(email, password, roleId);
             Console.WriteLine(result);
         }
     }

@@ -8,7 +8,7 @@ namespace ServiceLayer.Services
 {
     public class Account : IAccount
     {
-        public bool CheckRole(int roleId)
+        private bool CheckRole(int roleId)
         {
             if (roleId == 1)
                 return true;
@@ -16,7 +16,7 @@ namespace ServiceLayer.Services
         }
         public string Login(string email, string password,int roleId)
         {
-            if (email==AccountDatas.Email && password==AccountDatas.Password)
+            if (email == AccountDatas.Email && password == AccountDatas.Password)
             {
                 if (CheckRole(roleId))
                 {

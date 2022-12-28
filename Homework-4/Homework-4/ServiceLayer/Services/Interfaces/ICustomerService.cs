@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DomainLayer.Models;
 
 namespace ServiceLayer.Services.Interfaces
 {
@@ -10,5 +6,7 @@ namespace ServiceLayer.Services.Interfaces
     {
         int GetCustomerCount();
         int GetAvgCustomersAge();
+        //string GetCustomerDataByFiltered(int startAge,int endAge);
+        Customer[] GetCustomerDataByFiltered(int startAge,int endAge);
     }
 }

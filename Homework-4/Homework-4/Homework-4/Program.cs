@@ -3,3 +3,4 @@
 CustomerController customerController = new();
 customerController.GetAvgCustomersAge();
 customerController.GetCustomerCount();
+customerController.GetCustomerDataByFiltered();

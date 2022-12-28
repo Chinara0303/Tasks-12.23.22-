@@ -14,7 +14,7 @@ namespace ServiceLayer.Services
             double multiple=1;
             foreach (double num in nums)
             {
-                if (num>1 && num<20)
+                if (num > 1 && num < 20)
                     multiple *= num;
             }
             return multiple;

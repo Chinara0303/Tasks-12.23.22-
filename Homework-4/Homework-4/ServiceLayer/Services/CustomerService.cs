@@ -18,7 +18,6 @@ namespace ServiceLayer.Services
 
         public int GetCustomerCount()
         {
-            var result = GetCustomers();
             int count = 0;
             foreach (Customer customer in GetCustomers())
             {
@@ -29,6 +28,27 @@ namespace ServiceLayer.Services
             }
             return count;
         }
+
+        public Customer[] GetCustomerDataByFiltered(int startAge, int endAge)
+        {
+            Customer[] customers= GetCustomers();
+            Customer[] datas = new Customer[customers.Length];
+            int count = 0;
+            foreach (Customer customer in GetCustomers())
+            {
+                if (customer.Age > startAge && customer.Age < endAge)
+                {
+                    datas[count]=customer;
+                    count++;
+                }
+                //if (customer.Age>startAge && customer.Age<endAge)
+                //{
+                //    datas += $"{customer.Id} {customer.Name} {customer.Surname} {customer.Position} {customer.Age}  ";
+                //}
+            }
+            return datas;
+        }
+
         private Customer[] GetCustomers()
         {
             Customer customer1 = new Customer
